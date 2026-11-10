@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mekata",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mekata",
+      "database_id": "111713e9-96e2-4060-95f8-956f09680bec",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

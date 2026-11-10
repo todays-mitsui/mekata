@@ -1,0 +1,2 @@
+# ローカル開発用。.dev.vars にコピーして使う（本番は `wrangler secret put SYNC_TOKEN`）
+SYNC_TOKEN=dev-token
